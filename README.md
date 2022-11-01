@@ -26,7 +26,8 @@ export QNOTE_FILE=~/.qnotes.txt
 
 ## Aliases
 
-qnote can be used as is, but for convenience we can set some shell aliases.
+qnote can be used as is, but for convenience we can set some shell aliases in
+`.bashrc` and/or `.bash_profile`.
 
 ```
 if [ ! -z $(which qnote 2>> /dev/null) ]
