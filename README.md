@@ -14,6 +14,7 @@ For example we setup qnote in a Bash environment.
 ```
 mkdir $HOME/bin
 curl -LSso $HOME/bin/qnote https://raw.githubusercontent.com/reinboldg/qnote/master/qnote.sh
+chmod 755 $HOME/bin
 ```
 
 Edit `~/.bashrc` and/or `~/.bash_profile`
